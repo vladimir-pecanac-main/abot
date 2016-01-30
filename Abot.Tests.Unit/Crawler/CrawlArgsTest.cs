@@ -11,13 +11,13 @@ namespace Abot.Tests.Unit.Crawler
         [Test]
         public void Constructor_ValidArg_SetsPublicProperty()
         {
-            //CrawledPage page = new CrawledPage(new Uri("http://aaa.com/"));
-            //CrawlContext context = new CrawlContext();
-            //CrawlArgs args = new CrawlArgs(context);
+            CrawledPage page = new CrawledPage(new Uri("http://aaa.com/"));
+            CrawlContext context = new CrawlContext();
+            CrawlArgs args = new CrawlArgs(context);
 
-            //Assert.AreSame(context, args.CrawlContext);
+            Assert.AreSame(context, args.CrawlContext);
 
-            Assert.IsFalse(true);
+            //Assert.IsFalse(true);
         }
 
         [Test]
