@@ -17,7 +17,7 @@ namespace Abot.Tests.Unit.Crawler
 
             Assert.AreSame(context, args.CrawlContext);
 
-            //Assert.IsFalse(true);
+            Assert.IsFalse(true);
         }
 
         [Test]
